@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+
+
+h2 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 36%;
+    font-size: 30px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+p{
+    padding: 20px;
+    text-align: justify;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.texto-foto-perfil {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dados {
+    background-color: black;
+    color: white;
+    min-height: 300px;
+    border-radius: 0px 0px 4px 0px;
+}
+
+.dados img{
+    margin: 10px;
+}
+
+.conteudo h3,p {
+    margin-bottom: 10px;
+}
+
+
+
+#artigo {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#foto-perfil {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+#foto-perfil:hover {
+    cursor: pointer;
+}
+
+#nome {
+    background-color: black;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    padding: 20px;
+
+}
+
+#sinopse {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    align-items: center;
+}
+
+#capa {
+    text-align: center;
+    background-image: url("../images/Code_Geass_R1_box_set_cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#capa2 {
+    border: 2px solid black;
+}
+
+#capa2:hover {
+    box-shadow: 3px 3px  20px red;  
+    zoom: 1.1;
+}
